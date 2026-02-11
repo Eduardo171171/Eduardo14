@@ -1,0 +1,78 @@
+**1.** O que é o **Node.js**?
+Explique sua finalidade e por que ele é considerado um ambiente de execução e não uma linguagem de programação.
+O Node.js é um ambiente de execução (runtime) que permite executar código JavaScript fora do navegador, diretamente no servidor.
+
+Ele não é uma linguagem de programação, pois utiliza a linguagem JavaScript. O Node.js apenas fornece o ambiente necessário para que o JavaScript seja executado no sistema operacional, oferecendo recursos
+---
+
+**2.** Qual a diferença entre **Node.js** e **JavaScript executado no navegador**?
+Cite pelo menos **duas diferenças**.
+✅ 1. Ambiente de execução
+
+Navegador: JavaScript roda dentro do navegador (Chrome, Firefox etc.).
+
+Node.js: JavaScript roda no servidor.
+
+✅ 2. APIs disponíveis
+
+Navegador: Tem acesso ao DOM (document, window, alert).
+
+Node.js: Não tem DOM, mas tem acesso ao sistema de arquivos, rede, processos etc.
+---
+
+**3.** O que é o **V8 Engine** e qual sua importância para o funcionamento do Node.js?
+O V8 é o motor de execução JavaScript criado pelo Google para o Chrome.
+---
+
+**4.** Explique o conceito de **I/O não bloqueante** no Node.js.
+Por que isso melhora o desempenho de aplicações?
+I/O significa Input/Output (entrada e saída), como:
+
+Leitura de arquivos
+
+Requisições HTTP
+
+Acesso a banco de dados
+
+No modelo não bloqueante, o Node.js não espera uma operação terminar para continuar executando o código.
+---
+
+**5.** O que é o **Event Loop**?
+Descreva, de forma resumida, como ele funciona.
+O Event Loop é o mecanismo que permite ao Node.js executar operações assíncronas mesmo sendo single-threaded (uma única thread principal).
+
+Funcionamento resumido:
+
+O código é executado.
+
+Operações demoradas vão para a fila de eventos.
+
+Quando ficam prontas, o Event Loop coloca essas operações de volta na execução principal.
+---
+
+**6.** O que são **módulos** no Node.js?
+Explique a diferença entre:
+
+* Módulos internos
+* Módulos externos
+* Módulos criados pelo desenvolvedor
+Módulos são arquivos ou bibliotecas reutilizáveis que organizam o código.
+---
+
+**7.** Para que serve o arquivo **package.json** em um projeto Node.js?
+Cite pelo menos **três informações** que ele pode conter.
+
+---
+
+**8.** O que é o **npm**?
+Explique sua função no desenvolvimento de aplicações Node.js.
+
+---
+
+**9.** O que é uma **API REST** e como o Node.js pode ser usado para desenvolvê-la?
+
+---
+
+**10.** Cite **duas vantagens** e **duas desvantagens** do uso do Node.js em aplicações web.
+
+---
