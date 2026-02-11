@@ -57,22 +57,72 @@ Explique a diferença entre:
 * Módulos externos
 * Módulos criados pelo desenvolvedor
 Módulos são arquivos ou bibliotecas reutilizáveis que organizam o código.
----
+-fs (sistema de arquivos)
+
+http
+
+path--
 
 **7.** Para que serve o arquivo **package.json** em um projeto Node.js?
 Cite pelo menos **três informações** que ele pode conter.
+O package.json é o arquivo que gerencia as informações do projeto Node.js.
 
+Ele pode conter:
+
+Nome e versão do projeto
+
+Dependências
+
+Scripts (ex: start, dev)
+
+Autor
+
+Licença
+
+Descrição
+
+Tipo de módulo (commonjs ou module)
 ---
 
 **8.** O que é o **npm**?
 Explique sua função no desenvolvimento de aplicações Node.js.
+O npm (Node Package Manager) é o gerenciador de pacotes do Node.js.
 
+Funções:
+
+Instalar bibliotecas (npm install)
+
+Gerenciar dependências
+
+Atualizar pacotes
+
+Executar scripts
+
+Publicar pacotes
+
+Ele permite reutilizar código da comunidade de forma prática
 ---
 
 **9.** O que é uma **API REST** e como o Node.js pode ser usado para desenvolvê-la?
-
+Uma API REST é uma interface que permite comunicação entre sistemas usando o protocolo HTTP.
 ---
 
 **10.** Cite **duas vantagens** e **duas desvantagens** do uso do Node.js em aplicações web.
+✅ Vantagens
 
+Alto desempenho (V8 Engine)
+
+I/O não bloqueante (boa escalabilidade)
+
+Mesmo JavaScript no front-end e back-end
+
+Grande comunidade e muitos pacotes
+
+❌ Desvantagens
+
+Não é ideal para tarefas muito pesadas de CPU
+
+Código assíncrono pode ficar complexo (callback hell)
+
+Algumas bibliotecas podem variar em qualidade
 ---
