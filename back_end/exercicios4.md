@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>.programa que retorna o valor absoluto de um número..</title>
-</head>
+</head> 
 autor: Eduardo de sousa amorim
 
 <body>
